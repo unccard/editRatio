@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Calculate the edit distance ratio for phonetic transcriptions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for editRatio {editRatio}"><tr><td>editRatio {editRatio}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Calculate the edit distance ratio for phonetic transcriptions</h2>
+
+<h3>Description</h3>
+
+<p><code>editRatio</code> returns the edit distance ratio comparing the target transcription(s) to the produced transcription(s).
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+editRatio(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a data frame that contains target transcription and produced transcription on alternating rows</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>The edit distance ratio, the number of edits (Levenshtein, 1966) divided by the number of target or produced segments, whichever is greater.
+</p>
+
+
+<h3>References</h3>
+
+<p>Levenshtein, V. I. (1966). Binary codes capable of correcting deletions, insertions and reversals. Soviet Physics Doklady, 10 (8).
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+x&lt;- data.frame("Transcription"=c("Saul", "Paul"))
+editRatio(x)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>editRatio</em> version 0.1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

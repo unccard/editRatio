@@ -1,0 +1,14 @@
+Package: editRatio
+Type: Package
+Title: Calculating the Edit Distance Ratio
+Description: To calculate the edit distance ratio for automated analysis of phonetic transcriptions
+Authors@R: person("Kevin", "Cunningham", email="ktcslp@protonmail.com", role=c("aut", "cre"))
+URL: https://github.com/ktcslp
+License: GPL-3
+Version: 0.1.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Author: Kevin Cunningham [aut, cre]
+Maintainer: Kevin Cunningham <ktcslp@protonmail.com>
+Built: R 3.5.1; ; 2018-12-05 16:33:27 UTC; windows
