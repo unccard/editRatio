@@ -1,7 +1,7 @@
 Package: editRatio
 Title: Calculates the Edit Distance Ratio
 Version: 1.2
-Authors@R: person("Kevin", "Cunningham", email = "ktcslp@protonmailc.om", role = c("aut, "cre"))
+Authors@R: person("Kevin", "Cunningham", email = "ktcslp@protonmail.com", role = c("aut, "cre"))
 Description:  The edit distance ratio, the number of edits (Levenshtein, 1966) divided by the number of target or produced segments, whichever is greater..
 Depends: R (>= 3.5.1)
 License: MIT
