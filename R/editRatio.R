@@ -4,7 +4,7 @@
 #'@param x a data frame that contains target transcription and produced transcription on alternating rows
 #'@return The edit distance ratio, the number of edits (Levenshtein, 1966) divided by the number of target or produced segments, whichever is greater.
 #'@examples
-#'x<- data.frame("Transcription"=c("Saul", "Paul"))
+#'x <- data.frame("Transcription"=c("scl", "pcl"))
 #'editRatio(x)
 #'
 #'@section References:
